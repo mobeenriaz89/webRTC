@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/incomingCallView"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INCOMING CALL"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#2c2c2c"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:id="@+id/btnAcceptCall"
+            android:layout_above="@+id/btnDeclineCall"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decline"
+            android:id="@+id/btnDeclineCall"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
